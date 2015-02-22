@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14435A9D1A99914D0086C3FB /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF5211A99906A00B0C865 /* NSString+FontAwesome.m */; };
+		14CBF4931A99852C00B0C865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF4921A99852C00B0C865 /* main.m */; };
+		14CBF4961A99852C00B0C865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF4951A99852C00B0C865 /* AppDelegate.m */; };
+		14CBF4991A99852C00B0C865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF4981A99852C00B0C865 /* ViewController.m */; };
+		14CBF49C1A99852C00B0C865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF49A1A99852C00B0C865 /* Main.storyboard */; };
+		14CBF49E1A99852C00B0C865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF49D1A99852C00B0C865 /* Images.xcassets */; };
+		14CBF4A11A99852C00B0C865 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF49F1A99852C00B0C865 /* LaunchScreen.xib */; };
+		14CBF4AD1A99852C00B0C865 /* StackScratchPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF4AC1A99852C00B0C865 /* StackScratchPadTests.m */; };
+		14CBF5271A99906A00B0C865 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF5061A99906A00B0C865 /* .gitignore */; };
+		14CBF5281A99906A00B0C865 /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF5071A99906A00B0C865 /* .gitmodules */; };
+		14CBF5291A99906A00B0C865 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF50A1A99906A00B0C865 /* Default-568h@2x.png */; };
+		14CBF52A1A99906A00B0C865 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF50B1A99906A00B0C865 /* Default.png */; };
+		14CBF52B1A99906A00B0C865 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF50C1A99906A00B0C865 /* Default@2x.png */; };
+		14CBF52C1A99906A00B0C865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF50D1A99906A00B0C865 /* InfoPlist.strings */; };
+		14CBF5311A99906A00B0C865 /* FontAwesome-iOS Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF5171A99906A00B0C865 /* FontAwesome-iOS Demo-Info.plist */; };
+		14CBF5341A99906A00B0C865 /* FontAwesome+iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF51F1A99906A00B0C865 /* FontAwesome+iOS.podspec */; };
+		14CBF5361A99906A00B0C865 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF5221A99906A00B0C865 /* README.md */; };
+		14CBF5371A99906A00B0C865 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF5241A99906A00B0C865 /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14CBF4A71A99852C00B0C865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CBF4851A99852C00B0C865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CBF48C1A99852C00B0C865;
+			remoteInfo = StackScratchPad;
+		};
+		14CBF53A1A99906A00B0C865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CBF51A1A99906A00B0C865 /* FontAwesome-iOS Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16255F341690AF29004B8154;
+			remoteInfo = "FontAwesome-iOS Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CBF48D1A99852C00B0C865 /* StackScratchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackScratchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CBF4911A99852C00B0C865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CBF4921A99852C00B0C865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14CBF4941A99852C00B0C865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14CBF4951A99852C00B0C865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14CBF4971A99852C00B0C865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14CBF4981A99852C00B0C865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14CBF49B1A99852C00B0C865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CBF49D1A99852C00B0C865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14CBF4A01A99852C00B0C865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14CBF4A61A99852C00B0C865 /* StackScratchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackScratchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CBF4AB1A99852C00B0C865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CBF4AC1A99852C00B0C865 /* StackScratchPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackScratchPadTests.m; sourceTree = "<group>"; };
+		14CBF5061A99906A00B0C865 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		14CBF5071A99906A00B0C865 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		14CBF50A1A99906A00B0C865 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14CBF50B1A99906A00B0C865 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		14CBF50C1A99906A00B0C865 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		14CBF50E1A99906A00B0C865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14CBF50F1A99906A00B0C865 /* FAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAAppDelegate.h; sourceTree = "<group>"; };
+		14CBF5101A99906A00B0C865 /* FAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAAppDelegate.m; sourceTree = "<group>"; };
+		14CBF5111A99906A00B0C865 /* FATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FATableViewCell.h; sourceTree = "<group>"; };
+		14CBF5121A99906A00B0C865 /* FATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FATableViewCell.m; sourceTree = "<group>"; };
+		14CBF5131A99906A00B0C865 /* FATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FATableViewController.h; sourceTree = "<group>"; };
+		14CBF5141A99906A00B0C865 /* FATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FATableViewController.m; sourceTree = "<group>"; };
+		14CBF5151A99906A00B0C865 /* FAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAViewController.h; sourceTree = "<group>"; };
+		14CBF5161A99906A00B0C865 /* FAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAViewController.m; sourceTree = "<group>"; };
+		14CBF5171A99906A00B0C865 /* FontAwesome-iOS Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FontAwesome-iOS Demo-Info.plist"; sourceTree = "<group>"; };
+		14CBF5181A99906A00B0C865 /* FontAwesome-iOS Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-iOS Demo-Prefix.pch"; sourceTree = "<group>"; };
+		14CBF5191A99906A00B0C865 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14CBF51A1A99906A00B0C865 /* FontAwesome-iOS Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "FontAwesome-iOS Demo.xcodeproj"; sourceTree = "<group>"; };
+		14CBF51D1A99906A00B0C865 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		14CBF51E1A99906A00B0C865 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		14CBF51F1A99906A00B0C865 /* FontAwesome+iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FontAwesome+iOS.podspec"; sourceTree = "<group>"; };
+		14CBF5201A99906A00B0C865 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		14CBF5211A99906A00B0C865 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		14CBF5221A99906A00B0C865 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		14CBF5241A99906A00B0C865 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		14CBF5251A99906A00B0C865 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		14CBF5261A99906A00B0C865 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CBF48A1A99852C00B0C865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CBF4A31A99852C00B0C865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CBF4841A99852C00B0C865 = {
+			isa = PBXGroup;
+			children = (
+				14CBF5051A99906A00B0C865 /* ios-fontawesome */,
+				14CBF48F1A99852C00B0C865 /* StackScratchPad */,
+				14CBF4A91A99852C00B0C865 /* StackScratchPadTests */,
+				14CBF48E1A99852C00B0C865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CBF48E1A99852C00B0C865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF48D1A99852C00B0C865 /* StackScratchPad.app */,
+				14CBF4A61A99852C00B0C865 /* StackScratchPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CBF48F1A99852C00B0C865 /* StackScratchPad */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF4941A99852C00B0C865 /* AppDelegate.h */,
+				14CBF4951A99852C00B0C865 /* AppDelegate.m */,
+				14CBF4971A99852C00B0C865 /* ViewController.h */,
+				14CBF4981A99852C00B0C865 /* ViewController.m */,
+				14CBF49A1A99852C00B0C865 /* Main.storyboard */,
+				14CBF49D1A99852C00B0C865 /* Images.xcassets */,
+				14CBF49F1A99852C00B0C865 /* LaunchScreen.xib */,
+				14CBF4901A99852C00B0C865 /* Supporting Files */,
+			);
+			path = StackScratchPad;
+			sourceTree = "<group>";
+		};
+		14CBF4901A99852C00B0C865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF4911A99852C00B0C865 /* Info.plist */,
+				14CBF4921A99852C00B0C865 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14CBF4A91A99852C00B0C865 /* StackScratchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF4AC1A99852C00B0C865 /* StackScratchPadTests.m */,
+				14CBF4AA1A99852C00B0C865 /* Supporting Files */,
+			);
+			path = StackScratchPadTests;
+			sourceTree = "<group>";
+		};
+		14CBF4AA1A99852C00B0C865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF4AB1A99852C00B0C865 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14CBF5051A99906A00B0C865 /* ios-fontawesome */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF5061A99906A00B0C865 /* .gitignore */,
+				14CBF5071A99906A00B0C865 /* .gitmodules */,
+				14CBF5081A99906A00B0C865 /* Demo */,
+				14CBF51D1A99906A00B0C865 /* FAImageView.h */,
+				14CBF51E1A99906A00B0C865 /* FAImageView.m */,
+				14CBF51F1A99906A00B0C865 /* FontAwesome+iOS.podspec */,
+				14CBF5201A99906A00B0C865 /* NSString+FontAwesome.h */,
+				14CBF5211A99906A00B0C865 /* NSString+FontAwesome.m */,
+				14CBF5221A99906A00B0C865 /* README.md */,
+				14CBF5231A99906A00B0C865 /* Resources */,
+				14CBF5251A99906A00B0C865 /* UIFont+FontAwesome.h */,
+				14CBF5261A99906A00B0C865 /* UIFont+FontAwesome.m */,
+			);
+			path = "ios-fontawesome";
+			sourceTree = "<group>";
+		};
+		14CBF5081A99906A00B0C865 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF5091A99906A00B0C865 /* FontAwesome-iOS Demo */,
+				14CBF51A1A99906A00B0C865 /* FontAwesome-iOS Demo.xcodeproj */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		14CBF5091A99906A00B0C865 /* FontAwesome-iOS Demo */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF50A1A99906A00B0C865 /* Default-568h@2x.png */,
+				14CBF50B1A99906A00B0C865 /* Default.png */,
+				14CBF50C1A99906A00B0C865 /* Default@2x.png */,
+				14CBF50D1A99906A00B0C865 /* InfoPlist.strings */,
+				14CBF50F1A99906A00B0C865 /* FAAppDelegate.h */,
+				14CBF5101A99906A00B0C865 /* FAAppDelegate.m */,
+				14CBF5111A99906A00B0C865 /* FATableViewCell.h */,
+				14CBF5121A99906A00B0C865 /* FATableViewCell.m */,
+				14CBF5131A99906A00B0C865 /* FATableViewController.h */,
+				14CBF5141A99906A00B0C865 /* FATableViewController.m */,
+				14CBF5151A99906A00B0C865 /* FAViewController.h */,
+				14CBF5161A99906A00B0C865 /* FAViewController.m */,
+				14CBF5171A99906A00B0C865 /* FontAwesome-iOS Demo-Info.plist */,
+				14CBF5181A99906A00B0C865 /* FontAwesome-iOS Demo-Prefix.pch */,
+				14CBF5191A99906A00B0C865 /* main.m */,
+			);
+			path = "FontAwesome-iOS Demo";
+			sourceTree = "<group>";
+		};
+		14CBF51B1A99906A00B0C865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF53B1A99906A00B0C865 /* FontAwesome-iOS Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CBF5231A99906A00B0C865 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF5241A99906A00B0C865 /* FontAwesome.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CBF48C1A99852C00B0C865 /* StackScratchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CBF4B01A99852C00B0C865 /* Build configuration list for PBXNativeTarget "StackScratchPad" */;
+			buildPhases = (
+				14CBF4891A99852C00B0C865 /* Sources */,
+				14CBF48A1A99852C00B0C865 /* Frameworks */,
+				14CBF48B1A99852C00B0C865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackScratchPad;
+			productName = StackScratchPad;
+			productReference = 14CBF48D1A99852C00B0C865 /* StackScratchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14CBF4A51A99852C00B0C865 /* StackScratchPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CBF4B31A99852C00B0C865 /* Build configuration list for PBXNativeTarget "StackScratchPadTests" */;
+			buildPhases = (
+				14CBF4A21A99852C00B0C865 /* Sources */,
+				14CBF4A31A99852C00B0C865 /* Frameworks */,
+				14CBF4A41A99852C00B0C865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CBF4A81A99852C00B0C865 /* PBXTargetDependency */,
+			);
+			name = StackScratchPadTests;
+			productName = StackScratchPadTests;
+			productReference = 14CBF4A61A99852C00B0C865 /* StackScratchPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CBF4851A99852C00B0C865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Louis Tur";
+				TargetAttributes = {
+					14CBF48C1A99852C00B0C865 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					14CBF4A51A99852C00B0C865 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 14CBF48C1A99852C00B0C865;
+					};
+				};
+			};
+			buildConfigurationList = 14CBF4881A99852C00B0C865 /* Build configuration list for PBXProject "StackScratchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CBF4841A99852C00B0C865;
+			productRefGroup = 14CBF48E1A99852C00B0C865 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 14CBF51B1A99906A00B0C865 /* Products */;
+					ProjectRef = 14CBF51A1A99906A00B0C865 /* FontAwesome-iOS Demo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				14CBF48C1A99852C00B0C865 /* StackScratchPad */,
+				14CBF4A51A99852C00B0C865 /* StackScratchPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		14CBF53B1A99906A00B0C865 /* FontAwesome-iOS Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "FontAwesome-iOS Demo.app";
+			remoteRef = 14CBF53A1A99906A00B0C865 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CBF48B1A99852C00B0C865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBF52B1A99906A00B0C865 /* Default@2x.png in Resources */,
+				14CBF5271A99906A00B0C865 /* .gitignore in Resources */,
+				14CBF49C1A99852C00B0C865 /* Main.storyboard in Resources */,
+				14CBF5281A99906A00B0C865 /* .gitmodules in Resources */,
+				14CBF4A11A99852C00B0C865 /* LaunchScreen.xib in Resources */,
+				14CBF5311A99906A00B0C865 /* FontAwesome-iOS Demo-Info.plist in Resources */,
+				14CBF52A1A99906A00B0C865 /* Default.png in Resources */,
+				14CBF49E1A99852C00B0C865 /* Images.xcassets in Resources */,
+				14CBF5341A99906A00B0C865 /* FontAwesome+iOS.podspec in Resources */,
+				14CBF52C1A99906A00B0C865 /* InfoPlist.strings in Resources */,
+				14CBF5291A99906A00B0C865 /* Default-568h@2x.png in Resources */,
+				14CBF5371A99906A00B0C865 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CBF4A41A99852C00B0C865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CBF4891A99852C00B0C865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14435A9D1A99914D0086C3FB /* NSString+FontAwesome.m in Sources */,
+				14CBF4991A99852C00B0C865 /* ViewController.m in Sources */,
+				14CBF4961A99852C00B0C865 /* AppDelegate.m in Sources */,
+				14CBF5361A99906A00B0C865 /* README.md in Sources */,
+				14CBF4931A99852C00B0C865 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CBF4A21A99852C00B0C865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBF4AD1A99852C00B0C865 /* StackScratchPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CBF4A81A99852C00B0C865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CBF48C1A99852C00B0C865 /* StackScratchPad */;
+			targetProxy = 14CBF4A71A99852C00B0C865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14CBF49A1A99852C00B0C865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CBF49B1A99852C00B0C865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CBF49F1A99852C00B0C865 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CBF4A01A99852C00B0C865 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		14CBF50D1A99906A00B0C865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CBF50E1A99906A00B0C865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CBF4AE1A99852C00B0C865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14CBF4AF1A99852C00B0C865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CBF4B11A99852C00B0C865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackScratchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CBF4B21A99852C00B0C865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackScratchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CBF4B41A99852C00B0C865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StackScratchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackScratchPad.app/StackScratchPad";
+			};
+			name = Debug;
+		};
+		14CBF4B51A99852C00B0C865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StackScratchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackScratchPad.app/StackScratchPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CBF4881A99852C00B0C865 /* Build configuration list for PBXProject "StackScratchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CBF4AE1A99852C00B0C865 /* Debug */,
+				14CBF4AF1A99852C00B0C865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CBF4B01A99852C00B0C865 /* Build configuration list for PBXNativeTarget "StackScratchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CBF4B11A99852C00B0C865 /* Debug */,
+				14CBF4B21A99852C00B0C865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CBF4B31A99852C00B0C865 /* Build configuration list for PBXNativeTarget "StackScratchPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CBF4B41A99852C00B0C865 /* Debug */,
+				14CBF4B51A99852C00B0C865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CBF4851A99852C00B0C865 /* Project object */;
+}
